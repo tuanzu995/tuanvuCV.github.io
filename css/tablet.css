@@ -1,0 +1,36 @@
+@media (max-width: 992px) {
+  /************Grid-row-1: banner + name************/
+  #banner {
+    height: 25vh;
+  }
+  #banner-img {
+    height: 25vh;
+    background-position-x: 50%;
+  }
+
+  /************Grid-row-2: navbar************/
+  .ava {
+    display: none;
+  }
+  .col-sm-3 {
+    text-align: center;
+  }
+
+  /************Grid-row-3: about************/
+  #about {
+    margin-top: 5%;
+  }
+
+  /************Grid-row-4************/
+  #job-info {
+    column-count: 2;
+    column-gap: 10px;
+  }
+  /************Grid-row-5************/
+  #certificate > .row {
+    column-count: 2;
+  }
+  .cert-info {
+    column-count: 1;
+  }
+}
